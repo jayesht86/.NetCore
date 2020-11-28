@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
       - name: dotnet-api
-        image: dockerregistryacr.azurecr.io/dotnet-api:___BuildNumber___ 
+        image: azurecicdacr.azurecr.io/dotnet-api:___BuildNumber___ 
         ports:
         - containerPort: 80
         resources:
