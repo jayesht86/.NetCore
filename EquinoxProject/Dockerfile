@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/core/aspnet:3.1 AS base
+FROM microsoft/dotnet:2.1-aspnetcore-runtime AS base
 EXPOSE 80
 WORKDIR /app
 COPY ./ /app
